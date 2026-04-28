@@ -1,0 +1,121 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: 'Zen Matcha Latte',
+    price: 8.50,
+    image: 'https://images.unsplash.com/photo-1536013631175-e426c4d6241c?w=800&q=80',
+    rating: 5,
+    tag: 'Chill',
+    category: 'matcha',
+    caffeineLevel: 30,
+    mood: ['Calm', 'Focus'],
+    description: 'A smooth, ceremonial-grade matcha latte that brings mindful calm to your day. Sourced from Kyoto, Japan.',
+    ingredients: ['Ceremonial Matcha', 'Oat Milk', 'Honey', 'Vanilla']
+  },
+  {
+    id: 2,
+    name: 'Bold Espresso Shot',
+    price: 4.00,
+    image: 'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=800&q=80',
+    rating: 5,
+    tag: 'Energy Boost',
+    category: 'coffee',
+    caffeineLevel: 95,
+    mood: ['Energy', 'Focus'],
+    description: 'Rich, full-bodied espresso with notes of dark chocolate and caramel. Perfect for the modern hustler.',
+    ingredients: ['Arabica Beans', 'Water']
+  },
+  {
+    id: 3,
+    name: 'Matcha Mint Refresher',
+    price: 7.50,
+    image: 'https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=800&q=80',
+    rating: 4,
+    tag: 'Refresh',
+    category: 'matcha',
+    caffeineLevel: 25,
+    mood: ['Calm', 'Refresh'],
+    description: 'Iced matcha with fresh mint and a hint of lime. The perfect afternoon pick-me-up.',
+    ingredients: ['Matcha', 'Mint', 'Lime', 'Agave']
+  },
+  {
+    id: 4,
+    name: 'Caramel Macchiato',
+    price: 6.50,
+    image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80',
+    rating: 5,
+    tag: 'Classic',
+    category: 'coffee',
+    caffeineLevel: 75,
+    mood: ['Energy', 'Comfort'],
+    description: 'Velvety espresso meets sweet caramel and steamed milk. A luxurious daily ritual.',
+    ingredients: ['Espresso', 'Milk', 'Caramel', 'Vanilla']
+  },
+  {
+    id: 5,
+    name: 'Harmony Blend',
+    price: 9.00,
+    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80',
+    rating: 5,
+    tag: 'Balance',
+    category: 'blend',
+    caffeineLevel: 50,
+    mood: ['Balance', 'Focus', 'Energy'],
+    description: 'The perfect fusion of matcha and coffee. Experience both worlds in one cup.',
+    ingredients: ['Matcha', 'Espresso', 'Oat Milk', 'Honey']
+  },
+  {
+    id: 6,
+    name: 'Iced Matcha Cloud',
+    price: 8.00,
+    image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
+    rating: 4,
+    tag: 'Dreamy',
+    category: 'matcha',
+    caffeineLevel: 35,
+    mood: ['Calm', 'Creative'],
+    description: 'Layered iced matcha with cloud-like milk foam. Aesthetically pleasing and delicious.',
+    ingredients: ['Matcha', 'Milk Foam', 'Coconut Milk', 'Agave']
+  },
+  {
+    id: 7,
+    name: 'Nitro Cold Brew',
+    price: 7.00,
+    image: 'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&q=80',
+    rating: 5,
+    tag: 'Smooth',
+    category: 'coffee',
+    caffeineLevel: 85,
+    mood: ['Energy', 'Focus'],
+    description: 'Creamy, smooth cold brew infused with nitrogen. Bold flavor without the bitterness.',
+    ingredients: ['Cold Brew Coffee', 'Nitrogen']
+  },
+  {
+    id: 8,
+    name: 'Rose Matcha Latte',
+    price: 9.50,
+    image: 'https://images.unsplash.com/photo-1545665225-b23b99e4d45e?w=800&q=80',
+    rating: 4,
+    tag: 'Floral',
+    category: 'matcha',
+    caffeineLevel: 30,
+    mood: ['Calm', 'Romance'],
+    description: 'Delicate matcha infused with rose water and topped with rose petals. Pure elegance.',
+    ingredients: ['Matcha', 'Rose Water', 'Almond Milk', 'Rose Petals']
+  },
+  {
+    id: 9,
+    name: 'Midnight Mocha',
+    price: 7.50,
+    image: 'https://images.unsplash.com/photo-1578374173705-0fce6db0f447?w=800&q=80',
+    rating: 5,
+    tag: 'Indulgent',
+    category: 'coffee',
+    caffeineLevel: 80,
+    mood: ['Energy', 'Comfort'],
+    description: 'Rich dark chocolate meets bold espresso. A decadent evening treat.',
+    ingredients: ['Espresso', 'Dark Chocolate', 'Milk', 'Whipped Cream']
+  }
+];
